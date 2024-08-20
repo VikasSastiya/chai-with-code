@@ -5,7 +5,7 @@ function App() {
   const [color,setColor]=useState('olive');
 
   return (
-    <div> <div className="w-full h-screen duration-200"
+    <div className="w-100"> <div className="w-full h-screen duration-200"
     style={{backgroundColor:color}}
     >
     </div>
